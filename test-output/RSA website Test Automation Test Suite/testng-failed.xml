@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RSA website Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.rsa.qa.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test name="RSA Website Test Cases (failed)">
+    <classes>
+      <class name="com.rsa.qa.testcases.MyLandingPageTest">
+        <methods>
+          <include name="validateSearchFunction"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.rsa.qa.testcases.MyLandingPageTest -->
+      <class name="com.rsa.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.rsa.qa.testcases.HomePageTest -->
+      <class name="com.rsa.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.rsa.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- RSA Website Test Cases (failed) -->
+</suite> <!-- Failed suite [RSA website Test Automation Test Suite] -->

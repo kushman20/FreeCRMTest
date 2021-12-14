@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 58.964 sec <<< FAILURE!
+verifyHomePageTitleTest(com.rsa.qa.testcases.HomePageTest)  Time elapsed: 0.209 sec  <<< FAILURE!
+java.lang.AssertionError: Title is not displayed expected [Home | Rahul Shetty Academy1] but found [Home | Rahul Shetty Academy]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.rsa.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:35)
+
+loginPageTitleTest(com.rsa.qa.testcases.LoginPageTest)  Time elapsed: 0.137 sec  <<< FAILURE!
+java.lang.AssertionError: loginPage title not mached expected [Rahul Shetty Academy1] but found [Rahul Shetty Academy]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.rsa.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:46)
+

@@ -1,0 +1,4 @@
+com\rsa\qa\testcases\HomePageTest.class
+com\rsa\qa\testcases\MyLandingPageTest.class
+com\rsa\qa\testcases\UserProfilePageTest.class
+com\rsa\qa\testcases\LoginPageTest.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RSA website Test Automation Test Suite">
+
+<listeners>
+<listener 
+class-name="com.crm.qa.extentReportListener.RsaExtentReportListener">
+</listener>
+  <test name="RSA Website Test Cases ">
+    <classes>
+         <class name="com.rsa.qa.testcases.HomePageTest"/>
+         <class name="com.rsa.qa.testcases.LoginPageTest"/>
+    <!--      <class name="com.rsa.qa.testcases.MyLandingPageTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
